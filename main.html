@@ -7,7 +7,75 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+	<form>
+	<table>
+		<tr>
+			<td>Name:</td>
+			<td>
+			<input type="text" id="name" placeholder="Name" required/>
+			</td>
+		  </tr>
+		<tr>
+			<td>Email:</td>
+			<td>
+				<input type="email" id="email" placeholder="Email" required/>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				Gender:
+			</td>
+			<td>
+				<input type="radio" id="gender_m" value="Male" name="Gender">Male
+				<input type="radio" id="gender_f" value="Male" name="Gender">Female
+			</td>
+		</tr>
+		<tr>
+			<td>Car Brands:</td>
+			<td>
+			<select id="cars">
+				<option value="" disabled selected>--Please choose an option--</option>
+				<option>Audi</option>
+				<option>Honda city</option>
+				<option>BMW</option>
+				<option>Thar</option>
+				<option>Others</option>
+			</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Age:</td>
+			<td>
+				<input type="number" id="age" name="age" min="1" max="120" required>
+			</td>
+		</tr>
+		<tr>
+			<td>DOB:</td>
+			<td>
+				<input type="date" id="age" required/>
+			</td>
+		</tr>
+		<tr>
+			<td>Phone Number:</td>
+			<td>
+				<input type="tel" id="tel" placeholder="xxx-xxx-xxxx"/>
+			</td>
+		</tr>
+		<tr>
+			<td>Password:</td>
+			<td>
+				<input type="password" id="password" placeholder="password" required/>
+			</td>
+		</tr>
+		<tr>
+			<td>I agree to the TOS:</td>
+			<td>
+				<input type="checkbox" name="Yes"required/>Yes
+				<input type="checkbox" name="No"required/>No
+			</td>
+		</tr>
+	</table>
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
